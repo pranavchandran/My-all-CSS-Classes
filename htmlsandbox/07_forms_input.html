@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms & Input</title>
+</head>
+<body>
+    <form action="process.php">
+        <div>
+            <label for="name">Name</label><br>
+            <input id="name"type="text">
+        </div>
+        <div>
+            <label for="email">Email</label><br>
+            <input type="email" name="email"id="email"placeholder="type email id">
+        </div>
+        <div>
+            <label for="message">Message</label><br>
+            <textarea name="message" id="message" cols="50" rows="5"></textarea>
+        </div>
+        <div>
+            <label for="sex">Sex</label>
+            <select name="sex" id="sex">
+                <option value="Male">Male</option>
+                <option value="female">Female</option>
+                <option value="Others">Others</option>               
+            </select>
+        </div>
+        <div>
+            <label for="Age">Age</label><br>
+            <input type="number" name="Age" id="Age">
+        </div>
+        <div>
+            <label for="birthdate">BirthDate</label><br>
+            <input type="date" name="birthdate" id="birthdate">
+        </div>
+        <div>
+            <label for="membership">Membership</label>
+            <input type="radio" name="membership" id="membership" value="Standard">Standard
+            <input type="radio" name="membership" id="membership" value="Premium">Premium
+            <input type="radio" name="membership" id="membership" value="Prime">Prime
+        </div>
+        <div>
+            <label for="Vehicles">Do you like</label>
+            <input type="checkbox" name="Vehicles" id="Vehicles" value="Benz">Benz
+            <input type="checkbox" name="Vehicles" id="Vehicles" value="Audi">Audi
+            <input type="checkbox" name="Vehicles" id="Vehicles" value="Jaguar">Jaguar
+
+        </div>
+        
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+    
+</body>
+</html>

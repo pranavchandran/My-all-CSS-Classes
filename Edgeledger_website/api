@@ -1,0 +1,11 @@
+Javascript google api - AIzaSyDAiN8r79p-qOnvJrzJxu9-mD0YMm-IOVg
+
+AIzaSyDAiN8r79p-qOnvJrzJxu9-mD0YMm-IOVg
+
+script using for map loading
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
+    async defer></script>
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDAiN8r79p-qOnvJrzJxu9-mD0YMm-IOVg&callback=initMap"
+    async defer></script>
